@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <title>Stats preview card component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__image">
+        <picture>
+          <source
+            media="(min-width:375px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img src="images/image-header-mobile.jpg" alt="office" />
+        </picture>
+      </div>
+      <div class="card__description">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="card__description__numbers">
+          <div class="card__description__number">
+            <p class="card__description__number__key-figure">10k+</p>
+            <p class="card__description__number__description">companies</p>
+          </div>
+          <div class="card__description__number">
+            <p class="card__description__number__key-figure">314</p>
+            <p class="card__description__number__description">templates</p>
+          </div>
+          <div class="card__description__number">
+            <p class="card__description__number__key-figure">12m+</p>
+            <p class="card__description__number__description">queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
